@@ -3,8 +3,7 @@ import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
-//  import Lottie from "react-lottie";
-
+import Lottie from "react-lottie";
 import { cn } from "@/utils/cn";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-expressions
@@ -14,7 +13,7 @@ import { cn } from "@/utils/cn";
 
  import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo}  from "./GridGlobe";
-// import animationData from "@/data/confetti.json";
+import animationData from "@/data/confetti.json";
 import MagicButton from "../ui/MagicButton";
 
 export const BentoGrid = ({
@@ -65,14 +64,14 @@ export const BentoGridItem = ({
   const defaultOptions = {
     loop: copied,
     autoplay: copied,
-    //animationData: animationData,
+    animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "nathanieladikajnr@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -111,7 +110,7 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              //   width={220}
+              width={220}
               className="object-cover object-center w-full h-full"
             />
           )}
@@ -119,7 +118,7 @@ export const BentoGridItem = ({
          {id === 6 && (
           // add background animation , remove the p tag
           <BackgroundGradientAnimation>
-            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
+            {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
           </BackgroundGradientAnimation>
         )} 
 
@@ -144,14 +143,12 @@ export const BentoGridItem = ({
           {/* Tech stack list div */}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              {/* tech stack lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 {leftLists.map((item, i) => (
                   <span
                     key={i}
                     className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E]">
                     {item}
                   </span>
                 ))}
@@ -173,16 +170,12 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
-              {/* button border magic from tailwind css buttons  */}
-              {/* add rounded-md h-8 md:h-8, remove rounded-full */}
-              {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
-              {/* add handleCopy() for the copy the text */}
               <div
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                {/* <Lottie options={defaultOptions} height={200} width={400} /> */}
+                 <Lottie options={defaultOptions} height={200} width={400} /> 
               </div>
 
               <MagicButton
