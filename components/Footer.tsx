@@ -1,8 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { span } from 'framer-motion/client'
 import React from 'react'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa6'
 import { socialMedia } from '@/data'
+import { string } from 'three/webgpu'
 
 const Footer = () => {
   return (
@@ -47,7 +50,7 @@ const Footer = () => {
              border-black-300'>
             <img
               src={profile.img}
-              alt={profile.id}
+              alt={profile.id.toString()}
               width={20}
               height={20}/> 
                 </div>
