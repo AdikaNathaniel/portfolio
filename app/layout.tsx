@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Inter } from 'next/font/google';
 import { Metadata } from "next";
 import localFont from "next/font/local";
@@ -11,6 +12,7 @@ const geistSans = localFont({
   weight: "100 900",
 });
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",

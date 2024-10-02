@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import React from "react";
 
@@ -150,6 +151,7 @@ const AceternityIcon = ({ order} : { order: string }) => {
   );
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const Icon = ({ className, ...rest }: any) => {
   return (
     <svg

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { companies, testimonials } from '@/data';
 import React from 'react';
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards';

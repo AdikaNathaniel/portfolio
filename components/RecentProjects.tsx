@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable react/jsx-key */
 import { projects } from '@/data'

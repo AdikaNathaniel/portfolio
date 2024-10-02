@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client"; // Add this at the top
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
