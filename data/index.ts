@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "Adika's Ecommercials",
       des: "Ecommerce Website for purchasing dresses,shoes and bags.",
-      img: "/Fashion.PNG",
+      img: "/fashion.png",
       iconLists: ["/html.png", "/css.jpeg", "/js.png"],
       link: "/ui.earth.com",
     },
