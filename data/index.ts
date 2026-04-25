@@ -75,7 +75,7 @@ export const navItems = [
       title: "Craftelle",
       des: "Full-stack e-commerce mobile app for a premium gifting brand in Ghana. Browse handcrafted satin rose collections, customize and track orders.",
       img: "/craftelle.png",
-      iconLists: ["/re.svg", "/ts.svg", "/tail.svg"],
+      iconLists: ["/flutter.svg", "/nestjs.svg", "/mongodb.svg"],
       link: "https://github.com/AdikaNathaniel/Craftelle",
     },
     {
@@ -83,7 +83,7 @@ export const navItems = [
       title: "OnionGuard",
       des: "ML mobile app that detects onion diseases, scans freshness, and gives treatment tips in local languages.",
       img: "/onionguard.png",
-      iconLists: ["/ts.svg", "/tail.svg", "/next.svg"],
+      iconLists: ["/python.svg", "/tensorflow.svg", "/flutter.svg"],
       link: "https://github.com/AdikaNathaniel/Onion-Disease-Prediction",
     },
     {
@@ -91,7 +91,7 @@ export const navItems = [
       title: "Deeks",
       des: "One place for the stuff you always forget — meetings, links, passwords and notes. Flutter app with fingerprint-gated, end-to-end encrypted vault.",
       img: "/deeks.png",
-      iconLists: ["/ts.svg", "/tail.svg", "/next.svg"],
+      iconLists: ["/flutter.svg", "/nestjs.svg", "/aws.svg"],
       link: "https://github.com/AdikaNathaniel/Deeks",
     },
     {
@@ -99,7 +99,7 @@ export const navItems = [
       title: "Digizone",
       des: "Multi-vendor platform built with Flutter and microservices. Features payments, delivery, real-time chat and GPS tracking with Google Maps.",
       img: "/digizone.png",
-      iconLists: ["/ts.svg", "/tail.svg", "/next.svg"],
+      iconLists: ["/flutter.svg", "/nestjs.svg", "/mongodb.svg"],
       link: "https://github.com/AdikaNathaniel/Ecommerce_Mobile",
     },
     {
@@ -107,7 +107,7 @@ export const navItems = [
       title: "Awoapa",
       des: "Pregnancy monitoring app for expecting mothers with AI-powered preeclampsia and anemia risk prediction, real-time doctor chat and vitals tracking.",
       img: "/awoapa.png",
-      iconLists: ["/re.svg", "/tail.svg", "/js.png"],
+      iconLists: ["/flutter.svg", "/nestjs.svg", "/python.svg"],
       link: "https://github.com/AdikaNathaniel/FinalYearProject",
     },
     {
@@ -131,7 +131,7 @@ export const navItems = [
       title: "Patient Management Application",
       des: "Healthcare platform that streamlines patient registration, appointment scheduling and medical record management.",
       img: "/patient.png",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/next.svg", "/ts.svg", "/tail.svg"],
       link: "https://patient-management-app-nine.vercel.app/",
     },
     {
@@ -139,7 +139,7 @@ export const navItems = [
       title: "Book Inventory App",
       des: "App for users to catalogue their book collections with full CRUD functionality.",
       img: "/book.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/csharp.svg", "/dotnet.svg", "/html.png"],
       link: "https://github.com/AdikaNathaniel/BookInventoryApp",
     },
   ];
