@@ -84,7 +84,7 @@ export const navItems = [
       des: "ML mobile app that detects onion diseases, scans freshness, and gives treatment tips in local languages.",
       img: "/onionguard.png",
       iconLists: ["/python.svg", "/tensorflow.svg", "/flutter.svg"],
-      link: "https://github.com/AdikaNathaniel/Onion-Disease-Prediction",
+      link: "https://play.google.com/store/apps/details?id=com.onionguard.app",
     },
     {
       id: 3,
