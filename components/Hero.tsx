@@ -1,6 +1,7 @@
 import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
+import TypingEffect from './ui/TypingEffect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
 
@@ -52,9 +53,17 @@ const Hero = () => {
         />
 
            <p className='text-center
-          md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl 
+          md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl
            '>
-                    Hi,I&apos;m Nathaniel,a Developer based in Accra,Ghana
+                    Hi,I&apos;m Nathaniel,{' '}
+                    <TypingEffect
+                      words={[
+                        'a Developer based in Accra, Ghana',
+                        'a Frontend Developer',
+                        'a Backend Developer',
+                        'a Mobile Developer',
+                      ]}
+                    />
             </p>
 
             <a href='#about'>
