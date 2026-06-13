@@ -120,6 +120,30 @@ export const navItems = [
     },
     {
       id: 7,
+      title: "Akwantu",
+      des: "Ghana's first multi-operator intercity bus ticketing aggregator. Search, compare and book seats across multiple operators with Mobile Money.",
+      img: "/akwantu.png",
+      iconLists: ["/flutter.svg", "/nestjs.svg", "/mongodb.svg"],
+      link: "https://github.com/AdikaNathaniel/Akwantu",
+    },
+    {
+      id: 8,
+      title: "NeuroSense",
+      des: "Multilingual, on-device awareness tool that flags elevated stroke risk and tells the user, in their own language, to see a doctor.",
+      img: "/neurosense.png",
+      iconLists: ["/flutter.svg", "/tensorflow.svg", "/nestjs.svg"],
+      link: "https://github.com/AdikaNathaniel/NeuroSense-Stroke_Awareness_App",
+    },
+    {
+      id: 9,
+      title: "LabelIQ",
+      des: "Eliminates manual IMDB data entry by auto-filling product fields directly from a photo, cutting duplicates and cataloging bottlenecks.",
+      img: "/imdb-tool.png",
+      iconLists: ["/python.svg", "/flutter.svg", "/mongodb.svg"],
+      link: "https://play.google.com/store/apps/details?id=com.nathanieladika.imdbtool",
+    },
+    {
+      id: 10,
       title: "Deeks Rentals",
       des: "Purchase a car with just a click of a button. We dey for you!",
       img: "/rentals.png",
@@ -127,7 +151,7 @@ export const navItems = [
       link: "https://car-rentals-37dyg5wuc-adikanathaniels-projects.vercel.app/",
     },
     {
-      id: 8,
+      id: 11,
       title: "Patient Management Application",
       des: "Healthcare platform that streamlines patient registration, appointment scheduling and medical record management.",
       img: "/patient.png",
@@ -135,7 +159,7 @@ export const navItems = [
       link: "https://patient-management-app-nine.vercel.app/",
     },
     {
-      id: 9,
+      id: 12,
       title: "Book Inventory App",
       des: "App for users to catalogue their book collections with full CRUD functionality.",
       img: "/book.png",
