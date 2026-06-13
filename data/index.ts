@@ -73,7 +73,7 @@ export const navItems = [
     {
       id: 1,
       title: "Craftelle",
-      des: "Full-stack e-commerce mobile app for a premium gifting brand in Ghana. Browse handcrafted satin rose collections, customize and track orders.",
+      des: "Full-stack e-commerce mobile app for a premium gifting brand in Ghana.",
       img: "/craftelle.png",
       iconLists: ["/flutter.svg", "/nestjs.svg", "/mongodb.svg"],
       link: "https://github.com/AdikaNathaniel/Craftelle",
@@ -89,7 +89,7 @@ export const navItems = [
     {
       id: 3,
       title: "Deeks",
-      des: "One place for the stuff you always forget — meetings, links, passwords and notes. Flutter app with fingerprint-gated, end-to-end encrypted vault.",
+      des: "One place for the stuff you always forget — meetings, links, passwords and notes.",
       img: "/deeks.png",
       iconLists: ["/flutter.svg", "/nestjs.svg", "/aws.svg"],
       link: "https://github.com/AdikaNathaniel/Deeks",
