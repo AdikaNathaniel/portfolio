@@ -97,7 +97,7 @@ export const navItems = [
     {
       id: 4,
       title: "Digizone",
-      des: "Multi-vendor platform built with Flutter and microservices. Features payments, delivery, real-time chat and GPS tracking with Google Maps.",
+      des: "Multi-vendor platform that features payments, delivery, real-time chat and GPS tracking with Google Maps.",
       img: "/digizone.png",
       iconLists: ["/flutter.svg", "/nestjs.svg", "/mongodb.svg"],
       link: "https://github.com/AdikaNathaniel/Ecommerce_Mobile",
@@ -105,7 +105,7 @@ export const navItems = [
     {
       id: 5,
       title: "Awoapa",
-      des: "Pregnancy monitoring app for expecting mothers with AI-powered preeclampsia and anemia risk prediction, real-time doctor chat and vitals tracking.",
+      des: "Pregnancy monitoring app for expecting mothers with AI-powered preeclampsia and anemia risk prediction.",
       img: "/awoapa.png",
       iconLists: ["/flutter.svg", "/nestjs.svg", "/python.svg"],
       link: "https://github.com/AdikaNathaniel/FinalYearProject",
