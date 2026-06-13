@@ -121,7 +121,7 @@ export const navItems = [
     {
       id: 7,
       title: "Akwantu",
-      des: "Ghana's first multi-operator intercity bus ticketing aggregator. Search, compare and book seats across multiple operators with Mobile Money.",
+      des: "Ghana's first multi-operator intercity bus ticketing aggregator for searching, comparing and booking seats across multiple operators.",
       img: "/akwantu.png",
       iconLists: ["/flutter.svg", "/nestjs.svg", "/mongodb.svg"],
       link: "https://github.com/AdikaNathaniel/Akwantu",
