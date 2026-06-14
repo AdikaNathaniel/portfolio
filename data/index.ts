@@ -152,7 +152,7 @@ export const navItems = [
     },
     {
       id: 11,
-      title: "Patient Management Application",
+      title: "Patient Management",
       des: "Healthcare platform that streamlines patient registration, appointment scheduling and medical record management.",
       img: "/patient.png",
       iconLists: ["/next.svg", "/ts.svg", "/tail.svg"],
