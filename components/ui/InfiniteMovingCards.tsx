@@ -17,6 +17,7 @@ export const InfiniteMovingCards = ({
     name?: string;
     title?: string;
     img?: string;
+    portrait?: boolean;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -86,8 +87,10 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             key={idx}
-            className="w-[90vw] max-w-full relative rounded-2xl border border-b-0
-            flex-shrink-0 border-slate-800 p-3 md:p-6 md:w-[60vw]"
+            className={cn(
+              "max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-3 md:p-6",
+              item.portrait ? "w-auto" : "w-[90vw] md:w-[60vw]"
+            )}
             style={{ background: "rgb(4,7,29)" }}
           >
             <blockquote className="flex items-center justify-center w-full h-full">
@@ -96,8 +99,14 @@ export const InfiniteMovingCards = ({
                 <div className="w-full h-full flex items-center justify-center">
                   <img
                     src={item.img}
-                    alt="certificate / profile"
-                    className="w-full h-full object-contain rounded-xl"
+                    alt={item.title ?? "certificate"}
+                    className={cn(
+                      "object-contain rounded-xl",
+                      // portrait cards match the height of the landscape (4:3) certificates
+                      item.portrait
+                        ? "w-auto h-[calc((90vw-1.5rem)*0.744)] md:h-[calc((60vw-3rem)*0.744)]"
+                        : "w-full h-full"
+                    )}
                   />
                 </div>
               ) : (

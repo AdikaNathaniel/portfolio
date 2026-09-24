@@ -210,16 +210,17 @@ export const navItems = [
     img: "/cert2.jpg",
   },
   {
-    img: "/nat.jpg",
+    img: "/aidi-award.jpg",
+    title: "2026 A-IDI Group Project Presentation - 1st Place",
   },
   {
-    img: "/cert2.jpg",
+    img: "/aidi-participation.jpg",
+    title: "2026 African Inclusive Digital Industries (A-IDI) - Certificate of Participation",
   },
   {
-    img: "/nat.jpg",
-  },
-  {
-    img: "/cert2.jpg",
+    img: "/ug-award.jpg",
+    portrait: true,
+    title: "University of Ghana - Sadhu T.L. Vaswani/Indian Association of Ghana Endowment Fund Award for Science",
   },
 ];
 
