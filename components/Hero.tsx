@@ -61,7 +61,7 @@ const Hero = () => {
                         'a Developer based in Accra, Ghana',
                         'a Frontend Developer',
                         'a Backend Developer',
-                        'a Mobile Developer',
+                        'a Mobile App Developer',
                       ]}
                     />
             </p>
