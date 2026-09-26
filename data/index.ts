@@ -144,6 +144,30 @@ export const navItems = [
     },
     {
       id: 10,
+      title: "Palace Professional Network",
+      des: "App for International Palace Church members to find fellow professionals, connect with mentors and share career opportunities.",
+      img: "/palace.png",
+      iconLists: ["/flutter.svg", "/nestjs.svg", "/firebase.svg"],
+      link: "https://play.google.com/store/apps/details?id=com.ipc.palace.palace_professional_network",
+    },
+    {
+      id: 11,
+      title: "WeighWise",
+      des: "Quality control app that plots control charts for product weights and tracks batch colour consistency with p-charts.",
+      img: "/weighwise.png",
+      iconLists: ["/next.svg", "/ts.svg", "/tail.svg"],
+      link: "https://weighwise.vercel.app/",
+    },
+    {
+      id: 12,
+      title: "BirdGuard",
+      des: "Controls an automated laser bird deterrent — view the Raspberry Pi's live camera feed and start or stop the detector remotely.",
+      img: "/birdguard.png",
+      iconLists: ["/flutter.svg", "/nestjs.svg", "/python.svg"],
+      link: "https://bird-guard-application.vercel.app/login",
+    },
+    {
+      id: 13,
       title: "Deeks Rentals",
       des: "Purchase a car with just a click of a button. We dey for you!",
       img: "/rentals.png",
@@ -151,7 +175,7 @@ export const navItems = [
       link: "https://car-rentals-37dyg5wuc-adikanathaniels-projects.vercel.app/",
     },
     {
-      id: 11,
+      id: 14,
       title: "Patient Management",
       des: "Healthcare platform that streamlines patient registration, appointment scheduling and medical record management.",
       img: "/patient.png",
@@ -159,7 +183,7 @@ export const navItems = [
       link: "https://patient-management-app-nine.vercel.app/",
     },
     {
-      id: 12,
+      id: 15,
       title: "Book Inventory App",
       des: "App for users to catalogue their book collections with full CRUD functionality.",
       img: "/book.png",
